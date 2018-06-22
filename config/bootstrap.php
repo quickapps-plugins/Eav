@@ -15,7 +15,7 @@ use Cake\Cache\Cache;
 /**
  * Used by EavBehavior.
  */
-Cache::config('eav_table_attrs', [
+Cache::setConfig('eav_table_attrs', [
     'className' => 'File',
     'prefix' => 'eav_attrs_',
     'path' => CACHE . 'eav/',
